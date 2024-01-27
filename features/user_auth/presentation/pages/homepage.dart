@@ -1,6 +1,6 @@
-import 'package:bloodbond_app/features/user_auth/presentation/pages/donateblood.dart';
-import 'package:bloodbond_app/features/user_auth/presentation/pages/receiveblood.dart';
 import 'package:flutter/material.dart';
+import 'package:solution_bb/features/user_auth/presentation/pages/donateblood.dart';
+import 'package:solution_bb/features/user_auth/presentation/pages/receiveblood.dart';
 
 class Homepage extends StatelessWidget {
   const Homepage({super.key});

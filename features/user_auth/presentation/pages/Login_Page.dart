@@ -1,5 +1,5 @@
-import 'package:bloodbond_app/features/user_auth/presentation/pages/homepage.dart';
 import 'package:flutter/material.dart';
+import 'package:solution_bb/features/user_auth/presentation/pages/homepage.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
@@ -9,6 +9,7 @@ class LoginPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Bloodbond"),
+        titleTextStyle: const TextStyle(color: Colors.white),
         backgroundColor: Colors.red,
       ),
       body: Column(
@@ -76,6 +77,7 @@ class LoginPage extends StatelessWidget {
               ),
             ),
           ),
+          const Text("Don't have an account?"),
         ],
       ),
     );
